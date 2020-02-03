@@ -54,5 +54,4 @@ demo_list.pop(3)
 demo_list.pop(4)
 
 print(demo_list)
-#you will see here a fact when you pop index 0 then index 1 will become 0 then goes like that
-
+#you will see here a fact when you pop index 0 then index 1 will become 0 after then things goes like that
