@@ -55,3 +55,8 @@ demo_list.pop(4)
 
 print(demo_list)
 #you will see here a fact when you pop index 0 then index 1 will become 0 after then things goes like that
+
+
+#.......clear method ,You can delete all items with clear method
+demo_list.clear()
+print(f"The demo list : {demo_list}")
