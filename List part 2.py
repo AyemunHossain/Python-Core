@@ -41,3 +41,13 @@ num2= [6,7,8,9,10]
 
 num1.extend(num2)
 print(num1)
+
+#Let's see another example 
+
+test_list1 = [1, 3, 5, 5, 4] 
+test_list2 = [4, 6, 2, 8, 10] 
+test_list3 = [7, 5, 2, 9, 11,12] 
+final_list=[]
+final_list.extend(test_list1+test_list2+test_list3)
+
+print(final_list)
