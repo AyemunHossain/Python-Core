@@ -75,18 +75,3 @@ print(name,address,university)
 
 
 
-
-
-#capitalize the name with list comprehension
-
-
-
-
-
-
-
-
-
-
-
-
