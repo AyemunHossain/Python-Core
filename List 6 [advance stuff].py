@@ -60,4 +60,12 @@ print(functools.reduce(lambda a,b: a if a>b else b ,lis))   #bigest elements of 
 print(functools.reduce(lambda a,b: a if a<b else b ,lis))   #smallest elements of list
 
 
- 
+#..................>> chain method <<<.............
+from itertools import chain
+list1 = [1, 3, 4, 5] 
+list2 = [6, 7, 8, 9, 10] 
+list3 = [11, 12, 13, 14, 15, 16] 
+
+final_list=list(chain(list1,list2,list3))
+print(f"The Final List : {final_list}")
+
