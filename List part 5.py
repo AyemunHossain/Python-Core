@@ -63,15 +63,3 @@ print(f'Active Users :  {upper_name_of_active_user}\nInactive Users : {upper_nam
 #You can use list for initializing variable
 name,address,university=['Alif','Chandpur','DIU']
 print(name,address,university)
-
-
-
-
-
-
-
-
-
-
-
-
